@@ -1,7 +1,12 @@
 [![Download Installer](https://img.shields.io/badge/-Download%20Installer-green)](https://github.com/BrandonXLF/audio-visualizer/raw/master/AV%20Installer.exe) [![Download EXE (Portable)](https://img.shields.io/badge/-Download%20EXE%20(Portable)-grey)](https://github.com/BrandonXLF/audio-visualizer/raw/master/dist/Audio%20Visualizer.exe)
 
-# Audio Visualizer
+# Audio Visualizer 
+<img src="https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/icon.png" width="128">
+
 Audio Visualizer is a simple program to view the soundwaves of an entire song or video written in Python 3. The program opens a file containing audio data and graphs it in a line chart with timestamps at the bottom.
+
+## Example
+![](https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/example.png)
 
 ## Installation
 You can [download the installer](https://github.com/BrandonXLF/audio-visualizer/raw/master/AV%20Installer.exe) or [download the EXE file](https://github.com/BrandonXLF/audio-visualizer/raw/master/dist/Audio%20Visualizer.exe) for portable use.
