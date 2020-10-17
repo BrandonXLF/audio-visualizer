@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/icon.png" style="height:1em;vertical-align:middle"> <span style="vertical-align:middle">Audio Visualizer</span>
+# <img src="https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/icon.png" width="16">Audio Visualizer
 
 Audio Visualizer is a simple program to view the soundwaves of an entire song or video written in Python 3. The program opens a file containing audio data and graphs it in a line chart with timestamps at the bottom.
 
