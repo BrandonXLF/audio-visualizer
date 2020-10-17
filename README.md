@@ -1,14 +1,15 @@
-[![Download Installer](https://img.shields.io/badge/-Download%20Installer-green)](https://github.com/BrandonXLF/audio-visualizer/raw/master/AV%20Installer.exe) [![Download EXE (Portable)](https://img.shields.io/badge/-Download%20EXE%20(Portable)-grey)](https://github.com/BrandonXLF/audio-visualizer/raw/master/dist/Audio%20Visualizer.exe)
-
-# Audio Visualizer 
-<img src="https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/icon.png" width="128">
+# <img src="https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/icon.png" style="height:1em;vertical-align:middle"> <span style="vertical-align:middle">Audio Visualizer</span>
 
 Audio Visualizer is a simple program to view the soundwaves of an entire song or video written in Python 3. The program opens a file containing audio data and graphs it in a line chart with timestamps at the bottom.
 
+## Usage
+1. Make sure Python 3 is installed
+2. Download the [python file](https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/AudioVisualizer.py)
+3. Download dependencies
+	1. `pip install wheel`
+	2. `pip install matplotlib`
+	3. `pip install numpy`
+4. Run `AudioVisualizer.py` with Python
+
 ## Example
-![](https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/example.png)
-
-## Installation
-You can [download the installer](https://github.com/BrandonXLF/audio-visualizer/raw/master/AV%20Installer.exe) or [download the EXE file](https://github.com/BrandonXLF/audio-visualizer/raw/master/dist/Audio%20Visualizer.exe) for portable use.
-
-The [python file](https://github.com/BrandonXLF/audio-visualizer/raw/master/Audio%20Visualizer.py) can also be downloaded for use on other operating systems and other needs. The Python file requires Python 3 to run the file, and FFmpeg is needed in the PATH. The python libarbaries matplotlib (and its dependencies) and numpy (and its dependencies) are also needed.
+![](https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/example.png) 
