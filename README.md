@@ -4,12 +4,10 @@ Audio Visualizer is a simple program to view the soundwaves of an entire song or
 
 ## Usage
 1. Make sure Python 3 is installed
-2. Download the [python file](https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/AudioVisualizer.py)
-3. Download dependencies
-	1. `pip install wheel`
-	2. `pip install matplotlib`
-	3. `pip install numpy`
-4. Run `AudioVisualizer.py` with Python
+2. Make sure ffmpeg is installed and accessible
+3. Download the [python file](https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/AudioVisualizer.py)
+4. Download dependencies with `pip install matplotlib numpy`
+5. Run `AudioVisualizer.py` with Python
 
 ## Example
 ![](https://raw.githubusercontent.com/BrandonXLF/audio-visualizer/master/example.png) 

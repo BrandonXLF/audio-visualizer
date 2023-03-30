@@ -51,10 +51,9 @@ def drawGraph():
 	try:
 		filename = tkinter.filedialog.askopenfilename()
 		format_time = FormatTime()
-		ffmpeg = os.path.join(sys._MEIPASS, 'ffmpeg.exe') if hasattr(sys, '_MEIPASS') else 'ffmpeg'
 
 		p = Popen(
-			[ffmpeg, '-loglevel', 'panic', '-y', '-i', filename, '-vn', '-maxrate', '440000', '-c:a', 'pcm_s16le', '-ac', '1', '-f', 'wav', '-'],
+			['ffmpeg', '-loglevel', 'panic', '-y', '-i', filename, '-vn', '-maxrate', '440000', '-c:a', 'pcm_s16le', '-ac', '1', '-f', 'wav', '-'],
 			stdin=PIPE, stdout=PIPE, stderr=PIPE, creationflags=CREATE_NO_WINDOW
 		)
 
